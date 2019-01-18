@@ -8,7 +8,7 @@ class Navigation extends Component {
             <nav className ="navbar navbar-dark bg-dark">
                 {this.props.title}
                 {this.props.text}
-                {/* <ul>
+                {this.props.score/* <ul>
                 <li className="brand"><a href="/">Clicky Game</a></li>
                 <li className="">Click an image to begin!</li>
                 <li>Score: 0 | Top Score: 0</li>
