@@ -3,12 +3,19 @@
   text-align: center;
 }
 
-nav {
-  color: white;
-  padding: 10px;
-  font-family: fantasy;
-  font-size: 22px;
+.card-image{
+  height: 225px; /* Your height here */
+  overflow: hidden;
+
 }
+.row {
+  margin-top: -1em;
+}
+
+.parallax-container .parallax img {
+  opacity: 100;
+}
+
 
 @keyframes App-logo-spin {
   from {
