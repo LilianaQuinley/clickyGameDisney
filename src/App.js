@@ -1,12 +1,10 @@
 
 import React, { Component } from 'react';
 import './App.css';
-
 import { images } from './images.json';
+const shuffle = require('shuffle-array');
+
 //import Navigation from './components/Navigation'; 
-//import Parallax from './components/background';
-
-
 
 class App extends Component {
   constructor (props){
@@ -16,19 +14,24 @@ class App extends Component {
     }
   }
 
+  imageClick =() => {
+    console.log("click Image");
+    shuffle(this.state.images);
+    this.forceUpdate();
+  
+  }
+
   render() {
-    const images = this.state.images.map ((images, i) => {
+    const images = this.state.images.map ((image, i) => {
       console.log("calling ");
      
       return (
-      <div className="col s4 l3">
+      <div className="col s4 l3" key={i}>
       <div className="z-depth-5">
         <div className="card">
-          
-            <div className="card-image">
-              <a class ="waves-effect waves-strong-effect" href ="test1">
-              <img  src = { images } alt ="" ></img>
-              </a>
+            <div className="card-image waves-effect waves-strong-effect" >
+              <img className="arrow" src = { image } 
+               onClick = {this.imageClick} alt =""></img>
             </div>
           </div>
         </div>
@@ -57,7 +60,7 @@ class App extends Component {
         <div className="row">
           <div className="card">
             <div className="card-image">
-              <img src="/assets/images/disneybg.jpg"></img>
+              <img src="/assets/images/disneybg.jpg" alt=""></img>
                 <div className="card-title">
                   <h2>Clicky Game !</h2>
                   <h4>Click on an image to earn points, but don't click on any more than once!</h4>
@@ -65,12 +68,6 @@ class App extends Component {
             </div>
           </div>
         </div>
-{/* 
-              <div className="parallax-container">
-                <div className="parallax">
-                <img src="/assets/images/disneybg.jpg" alt="" className="responsive-img"/>
-                </div>
-              </div> */}
 
         <div className="container">
           <div className="row">
