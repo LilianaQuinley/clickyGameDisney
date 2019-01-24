@@ -6,8 +6,6 @@ import { images } from './images.json';
 const shuffle = require('shuffle-array');
 
 
-//import Navigation from './components/Navigation'; 
-
 class App extends Component {
   constructor (props){
     super(props);
