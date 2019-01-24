@@ -8,6 +8,18 @@
   overflow: hidden;
 
 }
+.card .card-content {
+  margin: 0 auto;
+}
+
+nav .nav-wrapper {
+  height: 80px;
+}
+
+nav{
+  margin-top:10px;
+}
+
 .row {
   margin-top: -1em;
 }
