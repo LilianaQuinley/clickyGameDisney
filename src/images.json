@@ -1,17 +1,17 @@
 {
    "images" : [
-        "/assets/images/ChipDale.jpg", 
-        "/assets/images/Cow.jpg",
-        "/assets/images/Daisy.jpg",
-        "/assets/images/Donald.jpg",
-        "/assets/images/goofy.jpg",
-        "/assets/images/HueyDewyLouie.jpg",
-        "/assets/images/stitch.jpg",
-        "/assets/images/McDuck.jpg",
-        "/assets/images/Minnie.jpg",
-        "/assets/images/Pete.jpg",
-        "/assets/images/Olaf.jpg",
-        "/assets/images/Pluto.jpg"
+        "/Assets/images/ChipDale.jpg", 
+        "/Assets/images/Cow.jpg",
+        "/Assets/images/Daisy.jpg",
+        "/Assets/images/Donald.jpg",
+        "/Assets/images/goofy.jpg",
+        "/Assets/images/HueyDewyLouie.jpg",
+        "/Assets/images/stitch.jpg",
+        "/Assets/images/McDuck.jpg",
+        "/Assets/images/Minnie.jpg",
+        "/Assets/images/Pete.jpg",
+        "/Assets/images/Olaf.jpg",
+        "/Assets/images/Pluto.jpg"
    ]
 
 }
