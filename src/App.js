@@ -91,7 +91,7 @@ class App extends Component {
         <div className="row">
           <div className="card ">
             <div className="card-image">
-              <img src="/assets/images/disneybg.jpg" alt=""></img>
+              <img src="/Assets/images/disneybg.jpg" alt=""></img>
                 <div className="card-title">
                   <h2>Clicky Game !</h2>
                   <h4>Click on an image to earn points, but don't click on any more than once!</h4>
